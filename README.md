@@ -49,7 +49,7 @@ repositories {
 ## Quick Start
 
 ```java
-import com.github.arun-prabhakar.HttpEasy;
+import im.arun.HttpEasy;
 
 // Simple GET request
 HttpEasy.create()
@@ -63,7 +63,7 @@ HttpEasy.create()
 ### GET Request
 
 ```java
-import com.github.arun-prabhakar.HttpEasy;
+import im.arun.HttpEasy;
 
 HttpEasy.HttpResponseWrapper response = HttpEasy.create()
     .url("https://jsonplaceholder.typicode.com/posts/1")
@@ -185,7 +185,7 @@ System.out.println("Delete status: " + response.status());
 ### Complete Example with Error Handling
 
 ```java
-import com.github.arun-prabhakar.HttpEasy;
+import im.arun.HttpEasy;
 
 import java.io.IOException;
 
@@ -239,7 +239,7 @@ HttpEasy is designed to work seamlessly with popular JSON libraries. Here's an e
 // implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.arun-prabhakar.HttpEasy;
+import im.arun.HttpEasy;
 
 // Define a POJO for your data
 class User {
