@@ -24,7 +24,7 @@ A lightweight, fluent Java HTTP client library that simplifies making HTTP reque
 <dependency>
     <groupId>com.github.arun-prabhakar</groupId>
     <artifactId>httpeasy</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 #### For **Maven**, add this to your `pom.xml`:
@@ -40,7 +40,7 @@ A lightweight, fluent Java HTTP client library that simplifies making HTTP reque
 ### Gradle
 
 ```groovy
-implementation 'com.github.arun-prabhakar:httpeasy:1.0.0'
+implementation 'com.github.arun-prabhakar:httpeasy:1.0.1'
 
 repositories {
     maven { url 'https://jitpack.io' }
